@@ -38,34 +38,3 @@ A comprehensive Python-based desktop application integrated with the **Bale Mess
 ├── session_manager.py   # Web session & cookie refresher
 ├── utils.py             # RTL formatting & helper functions
 └── config.py            # Central configuration & environment variables
-🚀 Getting Started
-Prerequisites
-
-    Python 3.8+
-
-    SQL Server driver installed (ODBC Driver 17 for SQL Server)
-
-    Required Persian TTF fonts installed on Windows (e.g., B Nazanin, Tahoma)
-
-Installation
-
-    Clone the repository:
-git clone [https://github.com/masoudalz/Bale-Accounting-Bot.git](https://github.com/masoudalz/Bale-Accounting-Bot.git)
-cd Bale-Accounting-Bot
-Install dependencies:
-pip install pyqt5 pyodbc reportlab requests jdatetime arabic-reshaper python-bidi
-Configure Environment Variables:
-Set up your environment variables or customize config.py with your database credentials and Bale bot token:
-set BOT_TOKEN=your_bale_bot_token
-set DB_CONN=DRIVER={SQL Server};SERVER=your_server;DATABASE=your_db;UID=sa;PWD=your_password
-Run the Application:
-python main.pyw
-🔒 Security Notice
-
-Please ensure that production database credentials, private API tokens, and secret admin passwords are never committed directly to version control. Always utilize environment variables or an uncommitted config.py file.
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-📄 License
-
-Distributed under the MIT License. See LICENSE for more information.
